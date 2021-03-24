@@ -16,18 +16,7 @@ eureka:
 
 spring:
   application:
-    name: config-server
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/salyfan/config.git
-      label: master
-#可以远程关闭服务节点
-#  management.endpoint.shutdown.enabled=true
-
-  #可以上报服务的真实健康状态
- # eureka.client.healthcheck.enabled=true
+    name: config-client1
 
 
 
