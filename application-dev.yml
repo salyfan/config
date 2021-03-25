@@ -12,12 +12,3 @@ eureka:
       defaultZone: http://eureka-7900.com:7900/eureka/
     healthcheck:
       enabled: true
-
-
-spring:
-  application:
-    name: config-client11
-
-
-
-
