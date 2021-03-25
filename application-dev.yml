@@ -1,8 +1,6 @@
-server:
-  port: 1000
 
 spring:
   application:
-    name: xxx
+    name: config-client
 xxx:
   xxx: aaa
